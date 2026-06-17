@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+}
+
+.calculator{
+    background-color: yellow;
+    min-height: 85vh;
+    min-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.calculator > textarea{
+    width: 320px;
+    height: 150px;
+    margin: 20px;
+    
+}
+
+.buttons{
+    display: grid;
+    height: 55vh;
+    width: 80%;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.buttons > button{
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
